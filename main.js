@@ -2,76 +2,75 @@ import * as d3 from 'd3';
 import * as d3Sankey from "d3-sankey";
 
 const width = 928;
-const height = 600; 
+const height = 600;
 const format = d3.format(",.0f");
-const linkColor = "source-target"; // source, target, source-target, or a color string.
 
-// Create a SVG container.
+// Create SVG container
 const svg = d3.create("svg")
   .attr("width", width)
   .attr("height", height)
   .attr("viewBox", [0, 0, width, height])
   .attr("style", "max-width: 100%; height: auto; font: 10px sans-serif;");
 
-// Constructs and configures a Sankey generator.
+// Configure Sankey generator
 const sankey = d3Sankey.sankey()
-  .nodeId(d => d.name)
-  .nodeAlign(d3Sankey.sankeyJustify) // d3.sankeyLeft, etc.
+  .nodeId(d => d.id)
+  .nodeAlign(d3Sankey.sankeyJustify)
   .nodeWidth(15)
   .nodePadding(10)
   .extent([[1, 5], [width - 1, height - 5]]);
 
-  function wrangle(costs) {
-    let studentCosts = costs["student-costs"];
-    let data = [];
-    let id = 0;
-    for (let obj of costs) {
-      if (obj["type"] === "Auxiliary Comprehensive Fee Component") {
-        data.push({
-          name: id,
-          value: obj["amount"],
-          title: obj["name"],
-          category: obj["subtype"],
-        });
-      }
+function wrangle(data) {
+  const nodes = [];
+  const links = [];
+  const nodeMap = new Map(); // To ensure unique node IDs
+
+  // "Auxiliary Comprehensive Fee" node
+  const feeNodeId = nodes.length;
+  nodes.push({ id: feeNodeId, name: "Auxiliary Comprehensive Fee", category: "Fee", title: "Auxiliary Comprehensive Fee", value: 0 });
+  nodeMap.set("Auxiliary Comprehensive Fee", feeNodeId);
+
+  // go through "student-costs"
+  data["student-costs"].forEach(item => {
+    if (item.type === "Auxiliary Comprehensive Fee Component") {
+      const componentNodeId = nodes.length;
+      nodes.push({
+        id: componentNodeId,
+        name: item.name,
+        category: item.subtype,
+        title: item.name,
+        value: item.amount
+      });
+      nodeMap.set(item.name, componentNodeId);
+
+      links.push({
+        source: feeNodeId,
+        target: componentNodeId,
+        value: item.amount
+      });
+
+      nodes[feeNodeId].value += item.amount;
     }
-
-    data.push({
-      name: "Auxiliary Comprehensive Fee Component",
-      value: 0,
-      title: "Auxiliary Comprehensive Fee Component",
-      category: "Auxiliary Comprehensive Fee Component",
-    });
-    return data;
-  }
-
-async function init() {
-  const unwrangledData = await d3.json("data/jmu.json");
-  const data = {
-    "nodes" : wrangle(unwrangledData),
-    "links" : createLinks(data.nodes),
-  };
-  
-  // Applies it to the data. We make a copy of the nodes and links objects
-  // so as to avoid mutating the original.
-  const { nodes, links } = sankey({
-  // const tmp = sankey({
-    nodes: data.nodes.map(d => Object.assign({}, d)),
-    links: data.links.map(d => Object.assign({}, d))
   });
 
-  // console.log('tmp', tmp);
-  console.log('nodes', nodes);
-  console.log('links', links);
+  return { nodes, links };
+}
 
-  // Defines a color scale.
+async function init() {
+  const rawData = await d3.json("data/jmu.json"); // Load data
+  const { nodes, links } = wrangle(rawData); // Wrangle data
+
+  const { nodes: sankeyNodes, links: sankeyLinks } = sankey({
+    nodes: nodes.map(d => Object.assign({}, d)),
+    links: links.map(d => Object.assign({}, d))
+  });
+
   const color = d3.scaleOrdinal(d3.schemeCategory10);
 
-  // Creates the rects that represent the nodes.
   const rect = svg.append("g")
     .attr("stroke", "#000")
     .selectAll()
-    .data(nodes)
+    .data(sankeyNodes)
     .join("rect")
     .attr("x", d => d.x0)
     .attr("y", d => d.y0)
@@ -79,79 +78,35 @@ async function init() {
     .attr("width", d => d.x1 - d.x0)
     .attr("fill", d => color(d.category));
 
-  // Adds a title on the nodes.
   rect.append("title")
-    .text(d => {
-      console.log('d', d);
-      return `${d.name}\n${format(d.value)}`});
+    .text(d => `${d.name}\nValue: ${format(d.value || 0)}`); // Handle missing value gracefully
 
-  // Creates the paths that represent the links.
+  // Render links
   const link = svg.append("g")
     .attr("fill", "none")
     .attr("stroke-opacity", 0.5)
     .selectAll()
-    .data(links)
-    .join("g")
-    .style("mix-blend-mode", "multiply");
-
-  // Creates a gradient, if necessary, for the source-target color option.
-  if (linkColor === "source-target") {
-    const gradient = link.append("linearGradient")
-      .attr("id", d => (d.uid = `link-${d.index}`))
-      .attr("gradientUnits", "userSpaceOnUse")
-      .attr("x1", d => d.source.x1)
-      .attr("x2", d => d.target.x0);
-    gradient.append("stop")
-      .attr("offset", "0%")
-      .attr("stop-color", d => color(d.source.category));
-    gradient.append("stop")
-      .attr("offset", "100%")
-      .attr("stop-color", d => color(d.target.category));
-  }
-
-  link.append("path")
+    .data(sankeyLinks)
+    .join("path")
     .attr("d", d3Sankey.sankeyLinkHorizontal())
-    .attr("stroke", linkColor === "source-target" ? (d) => `url(#${d.uid})`
-      : linkColor === "source" ? (d) => color(d.source.category)
-        : linkColor === "target" ? (d) => color(d.target.category)
-          : linkColor)
+    .attr("stroke", d => color(d.source.category)) // Match link color to source node
     .attr("stroke-width", d => Math.max(1, d.width));
 
   link.append("title")
-    .text(d => `${d.source.name} → ${d.target.name}\n${format(d.value)}`);
+    .text(d => `${d.source.name} → ${d.target.name}\nValue: ${format(d.value)}`);
 
-  // Adds labels on the nodes.
+  // Render node labels
   svg.append("g")
     .selectAll()
-    .data(nodes)
+    .data(sankeyNodes)
     .join("text")
     .attr("x", d => d.x0 < width / 2 ? d.x1 + 6 : d.x0 - 6)
     .attr("y", d => (d.y1 + d.y0) / 2)
     .attr("dy", "0.35em")
     .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
-    .text(d => d.title);
+    .text(d => d.name);
 
-    // Adds labels on the links.
-  svg.append("g")
-    .selectAll()
-    .data(links)
-    .join("text")
-    .attr("x", d => {
-      console.log('linkd', d)
-      const midX = (d.source.x1 + d.target.x0) / 2;
-      return midX < width / 2 ? midX + 6 : midX - 6
-    })
-    .attr("y", d => (d.y1 + d.y0) / 2)
-    .attr("dy", "0.35em")
-    .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
-    .text(d => {
-      console.log('linkd', d);
-      return `${d.source.title} → ${d.value} → ${d.target.title}`
-    });
-
-  const svgNode = svg.node();
-    document.body.appendChild(svgNode);
-  return svgNode;
+  document.body.appendChild(svg.node());
 }
 
 init();
