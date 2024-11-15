@@ -1,928 +1,928 @@
 {
-  "student-costs": [
-    {
-      "semester": "Fall",
-      "type": "student itemized",
-      "name": "Tuition",
-      "in-state": 4075,
-      "out-state": 12748
-    },
-    {
-      "semester": "Fall",
-      "type": "student itemized",
-      "name": "Comprehensive Fees",
-      "in-state": 2908,
-      "out-state": 2908
-    },
-    {
-      "semester": "Fall",
-      "type": "student itemized",
-      "name": "Housing - On-Campus Room Rent",
-      "in-state": 3140,
-      "out-state": 3140
-    },
-    {
-      "semester": "Fall",
-      "type": "student itemized",
-      "name": "Internet Connection Fee",
-      "in-state": 138,
-      "out-state": 138
-    },
-    {
-      "semester": "Fall",
-      "type": "student itemized",
-      "name": "Meal Plan (All Access - 200 DD)",
-      "in-state": 3318,
-      "out-state": 3318
-    },
-    {
-      "semester": "Spring",
-      "type": "student itemized",
-      "name": "Tuition (12+ credits)",
-      "in-state": 4075,
-      "out-state": 12748
-    },
-    {
-      "semester": "Spring",
-      "type": "student itemized",
-      "name": "Comprehensive Fees",
-      "in-state": 2908,
-      "out-state": 2908
-    },
-    {
-      "semester": "Spring",
-      "type": "student itemized",
-      "name": "Housing - On-Campus Room Rent",
-      "in-state": 3140,
-      "out-state": 3140
-    },
-    {
-      "semester": "Spring",
-      "type": "student itemized",
-      "name": "Internet Connection Fee",
-      "in-state": 138,
-      "out-state": 138
-    },
-    {
-      "semester": "Spring",
-      "type": "student itemized",
-      "name": "Meal Plan (All Access - 200 DD)",
-      "in-state": 3318,
-      "out-state": 3318
-    },
-    {
-      "name": "Athletic Operations",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Intercollegiate Athletics",
-      "amount": 1798.27
-    },
-    {
-      "name": "Debt Service - Athletics",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Intercollegiate Athletics",
-      "amount": 563.45
-    },
-    {
-      "name": "Auxiliary Administration",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 62.14
-    },
-    {
-      "name": "Breeze Administration",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 5.85
-    },
-    {
-      "name": "Budget Management",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 7.90
-    },
-    {
-      "name": "Business Services",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 22.88
-    },
-    {
-      "name": "Campus Police",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 29.76
-    },
-    {
-      "name": "Controller",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 15.67
-    },
-    {
-      "name": "Dean Of Students",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 33.19
-    },
-    {
-      "name": "Employee Appreciation",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 0.37
-    },
-    {
-      "name": "Facilities Management",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 44.06
-    },
-    {
-      "name": "Family Engagement",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 19.69
-    },
-    {
-      "name": "General Expense",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 5.41
-    },
-    {
-      "name": "General Insurance",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 0.54
-    },
-    {
-      "name": "Human Resources",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 13.50
-    },
-    {
-      "name": "Information Technology",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 8.29
-    },
-    {
-      "name": "International Programs",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 13.48
-    },
-    {
-      "name": "Mandatory Indirect Cost to E&G",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 506.31
-    },
-    {
-      "name": "OSARP",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 47.41
-    },
-    {
-      "name": "Payroll",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 3.37
-    },
-    {
-      "name": "Procurement",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 6.58
-    },
-    {
-      "name": "Scholarships",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 204.12
-    },
-    {
-      "name": "Student Affairs Support",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 6.39
-    },
-    {
-      "name": "Transportation Support",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 4.50
-    },
-    {
-      "name": "University Events",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Auxiliary Service",
-      "amount": 9.63
-    },
-    {
-      "name": "AUBC",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 91.43
-    },
-    {
-      "name": "Bridgeforth",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 63.54
-    },
-    {
-      "name": "Convocation Center",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 70.91
-    },
-    {
-      "name": "Debt Service - Other",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 379.84
-    },
-    {
-      "name": "Facilities Management",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 13.08
-    },
-    {
-      "name": "Facility Reserves",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 73.78
-    },
-    {
-      "name": "Godwin Hall",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 38.13
-    },
-    {
-      "name": "Operating Reserves",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 68.08
-    },
-    {
-      "name": "Plecker Athletic Performance Center",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 22.96
-    },
-    {
-      "name": "Studies Abroad",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Facilities",
-      "amount": 20.90
-    },
-    {
-      "name": "Student Health Center",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Health Services",
-      "amount": 269.31
-    },
-    {
-      "name": "UREC Health Promotion",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Health Services",
-      "amount": 28.55
-    },
-    {
-      "name": "Community Service-Learning",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 22.65
-    },
-    {
-      "name": "Career, Experiential Leaming and Transition",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 10.98
-    },
-    {
-      "name": "Diversity Equity and Inclusion",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 35.04
-    },
-    {
-      "name": "DUX Leadership",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 7.68
-    },
-    {
-      "name": "Event Management",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 3.94
-    },
-    {
-      "name": "Festival Conference and Student Center",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 36.80
-    },
-    {
-      "name": "Fraternity & Sorority Life",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 6.49
-    },
-    {
-      "name": "Homecoming",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 4.51
-    },
-    {
-      "name": "Madipalooza",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 5.52
-    },
-    {
-      "name": "Marching Royal Dukes",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 55.95
-    },
-    {
-      "name": "Multicultural Student Services",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 9.49
-    },
-    {
-      "name": "Orientation",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 15.14
-    },
-    {
-      "name": "SAIL/Organizational Development",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 15.46
-    },
-    {
-      "name": "Student Affairs Support",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 12.00
-    },
-    {
-      "name": "Student Life",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 57.70
-    },
-    {
-      "name": "Student Wellness",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 9.68
-    },
-    {
-      "name": "University Unions",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 169.81
-    },
-    {
-      "name": "UREC",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Student Activity",
-      "amount": 443.57
-    },
-    {
-      "name": "Bus Service",
-      "type": "Auxiliary Comprehensive Fee Component",
-      "subtype": "Transportation",
-      "amount": 118.39
-    }
-  ],
-  "jmu-revenues": [
-    {
-      "name": "State appropriations",
-      "type": "Nonoperating revenues (expenses)",
-      "2023": 145185,
-      "2022": 139725,
-      "delta": 5460,
-      "deltaPercent": "3.9%"
-    },
-    {
-      "name": "Grants and Contracts",
-      "type": "Nonoperating revenues (expenses)",
-      "2023": 19990,
-      "2022": 46212,
-      "delta": -26222,
-      "deltaPercent": "-56.7%"
-    },
-    {
-      "name": "OPEB-related contribution revenue",
-      "type": "Nonoperating revenues (expenses)",
-      "2023": 6601,
-      "2022": 1069,
-      "delta": 5532,
-      "deltaPercent": "517.5%"
-    },
-    {
-      "name": "Investment Income",
-      "type": "Nonoperating revenues (expenses)",
-      "2023": 5356,
-      "2022": 630,
-      "delta": 4726,
-      "deltaPercent": "750.2%"
-    },
-    {
-      "name": "Interest on capital asset related debt",
-      "type": "Nonoperating revenues (expenses)",
-      "2023": -12950,
-      "2022": -13541,
-      "delta": 591,
-      "deltaPercent": "4.4%"
-    },
-    {
-      "name": "Gain (loss) on disposal of plant assets",
-      "type": "Nonoperating revenues (expenses)",
-      "2023": -655,
-      "2022": -257,
-      "delta": -398,
-      "deltaPercent": "-154.9%"
-    },
-    {
-      "name": "Payments to the Commonwealth",
-      "type": "Nonoperating revenues (expenses)",
-      "2023": -3098,
-      "2022": -3098,
-      "delta": 0,
-      "deltaPercent": "0.0%"
-    },
-    {
-      "name": "Capital appropriations and contributions",
-      "type": "Income (loss) before other revenues, expenses, gains, or losses",
-      "2023": 155746,
-      "2022": 11817,
-      "delta": 143929,
-      "deltaPercent": "1218.0%"
-    },
-    {
-      "name": "Capital gifts",
-      "type": "Income (loss) before other revenues, expenses, gains, or losses",
-      "2023": 5873,
-      "2022": 1314,
-      "delta": 4559,
-      "deltaPercent": "347.0%"
-    },
-    {
-      "name": "Student tuition and fees, net",
-      "type": "Operating revenues",
-      "2023": 235832,
-      "2022": 232347,
-      "delta": 3485,
-      "deltaPercent": "$ 1.5%"
-    },
-    {
-      "name": "Grants and contracts",
-      "type": "Operating revenues",
-      "2023": 43535,
-      "2022": 40811,
-      "delta": 2724,
-      "deltaPercent": "6.7%"
-    },
-    {
-      "name": "Auxiliary enterprises, net",
-      "type": "Operating revenues",
-      "2023": 212408,
-      "2022": 202346,
-      "delta": 10062,
-      "deltaPercent": "5.0%"
-    },
-    {
-      "name": "Other operating revenues",
-      "type": "Operating revenues",
-      "2023": 5855,
-      "2022": 4977,
-      "delta": 878,
-      "deltaPercent": "17.6%"
-    },
-    {
-      "name": "State appropriations",
-      "type": "Nonoperating revenues",
-      "2023": 145185,
-      "2022": 139725,
-      "delta": 5460,
-      "deltaPercent": "3.9%"
-    },
-    {
-      "name": "Grants and contracts",
-      "type": "Nonoperating revenues",
-      "2023": 19990,
-      "2022": 46212,
-      "delta": -26222,
-      "deltaPercent": "-56.7%"
-    },
-    {
-      "name": "Other nonoperating revenue",
-      "type": "Nonoperating revenues",
-      "2023": 11959,
-      "2022": 1701,
-      "delta": 10258,
-      "deltaPercent": "603.1%"
-    },
-    {
-      "name": "Capital appropriations and contributions",
-      "type": "Other revenues",
-      "2023": 155746,
-      "2022": 11817,
-      "delta": 143929,
-      "deltaPercent": "1218.0%"
-    },
-    {
-      "name": "Capital gifts",
-      "type": "Other revenues",
-      "2023": 5873,
-      "2022": 1314,
-      "delta": 4559,
-      "deltaPercent": "347.0%"
-    },
-    {
-      "name": "Instruction",
-      "type": "Operating Expense",
-      "2023": 190232,
-      "2022": 185668,
-      "delta": 4564,
-      "deltaPercent": "2.5%"
-    },
-    {
-      "name": "Research",
-      "type": "Operating Expense",
-      "2023": 3267,
-      "2022": 2843,
-      "delta": 424,
-      "deltaPercent": "14.9%"
-    },
-    {
-      "name": "Public service",
-      "type": "Operating Expense",
-      "2023": 23295,
-      "2022": 22105,
-      "delta": 1190,
-      "deltaPercent": "5.4%"
-    },
-    {
-      "name": "Academic support",
-      "type": "Operating Expense",
-      "2023": 53165,
-      "2022": 47536,
-      "delta": 5629,
-      "deltaPercent": "11.8%"
-    },
-    {
-      "name": "Student services",
-      "type": "Operating Expense",
-      "2023": 27059,
-      "2022": 24929,
-      "delta": 2130,
-      "deltaPercent": "8.5%"
-    },
-    {
-      "name": "Institutional support",
-      "type": "Operating Expense",
-      "2023": 37703,
-      "2022": 46660,
-      "delta": -8957,
-      "deltaPercent": "-19.2%"
-    },
-    {
-      "name": "Operation and maintenance - plant",
-      "type": "Operating Expense",
-      "2023": 46138,
-      "2022": 41546,
-      "delta": 4592,
-      "deltaPercent": "11.1%"
-    },
-    {
-      "name": "Depreciation and amortization",
-      "type": "Operating Expense",
-      "2023": 57009,
-      "2022": 55739,
-      "delta": 1270,
-      "deltaPercent": "2.3%"
-    },
-    {
-      "name": "Student aid",
-      "type": "Operating Expense",
-      "2023": 21387,
-      "2022": 36454,
-      "delta": -15067,
-      "deltaPercent": "-41.3%"
-    },
-    {
-      "name": "Auxiliary activities",
-      "type": "Operating Expense",
-      "2023": 164987,
-      "2022": 130469,
-      "delta": 34518,
-      "deltaPercent": "26.5%"
-    }
-  ],
-  "jmu-athletics": [
-    {
-      "name": "Ticket sales",
-      "type": "Operating Revenues",
-      "Football": 3005827,
-      "Men's Basketball": 345290,
-      "Women's Basketball": 107173,
-      "Other sports": 6838,
-      "Non-Program Specific": 353272,
-      "Total": 3818400
-    },
-    {
-      "name": "Student fees",
-      "type": "Operating Revenues",
-      "Football": 0,
-      "Men's Basketball": 0,
-      "Women's Basketball": 0,
-      "Other sports": 0,
-      "Non-Program Specific": 53285977,
-      "Total": 53285977
-    },
-    {
-      "name": "Direct institutional support",
-      "type": "Operating Revenues",
-      "Football": 284293,
-      "Men's Basketball": 153961,
-      "Women's Basketball": 153961,
-      "Other sports": 370452,
-      "Non-Program Specific": 328762,
-      "Total": 1291429
-    },
-    {
-      "name": "Guarantees",
-      "type": "Operating Revenues",
-      "Football": 600000,
-      "Men's Basketball": 85000,
-      "Women's Basketball": 5000,
-      "Other sports": 24166,
-      "Non-Program Specific": 0,
-      "Total": 714166
-    },
-    {
-      "name": "Contributions",
-      "type": "Operating Revenues",
-      "Football": 145597,
-      "Men's Basketball": 75442,
-      "Women's Basketball": 30500,
-      "Other sports": 108632,
-      "Non-Program Specific": 4507121,
-      "Total": 4867292
-    },
-    {
-      "name": "In-Kind",
-      "type": "Operating Revenues",
-      "Football": 193327,
-      "Men's Basketball": 34101,
-      "Women's Basketball": 33101,
-      "Other sports": 134843,
-      "Non-Program Specific": 171025,
-      "Total": 566397
-    },
-    {
-      "name": "NCAA distributions",
-      "type": "Operating Revenues",
-      "Football": 2722,
-      "Men's Basketball": 0,
-      "Women's Basketball": 56616,
-      "Other sports": 56957,
-      "Non-Program Specific": 1473445,
-      "Total": 1589740
-    },
-    {
-      "name": "Conference distributions (non-media or bowl)",
-      "type": "Operating Revenues",
-      "Football": 0,
-      "Men's Basketball": 0,
-      "Women's Basketball": 0,
-      "Other sports": 50000,
-      "Non-Program Specific": 0,
-      "Total": 50000
-    },
-    {
-      "name": "Program, novelty, parking and concession sales",
-      "type": "Operating Revenues",
-      "Football": 134308,
-      "Men's Basketball": 0,
-      "Women's Basketball": 0,
-      "Other sports": 0,
-      "Non-Program Specific": 0,
-      "Total": 134308
-    },
-    {
-      "name": "Royalties, licensing, advertisement and sponsorships",
-      "type": "Operating Revenues",
-      "Football": 96327,
-      "Men's Basketball": 4601,
-      "Women's Basketball": 6601,
-      "Other sports": 41993,
-      "Non-Program Specific": 1162768,
-      "Total": 1312290
-    },
-    {
-      "name": "Other operating revenue",
-      "type": "Operating Revenues",
-      "Football": 2640,
-      "Men's Basketball": 182773,
-      "Women's Basketball": 182773,
-      "Other sports": 4735,
-      "Non-Program Specific": 32419,
-      "Total": 405340
-    },
-    {
-      "name": "Athletic student aid",
-      "type": "Operating Expenses",
-      "Football": 3212217,
-      "Men's Basketball": 516255,
-      "Women's Basketball": 753566,
-      "Other sports": 5951920,
-      "Non-Program Specific": 354788,
-      "Total": 10788746
-    },
-    {
-      "name": "Guarantees",
-      "type": "Operating Expenses",
-      "Football": 950000,
-      "Men's Basketball": 14000,
-      "Women's Basketball": 12000,
-      "Other sports": 31976,
-      "Non-Program Specific": 0,
-      "Total": 1007976
-    },
-    {
-      "name": "Coaching salaries, benefits and bonuses paid by the Institution and related entities",
-      "type": "Operating Expenses",
-      "Football": 2518475,
-      "Men's Basketball": 1101383,
-      "Women's Basketball": 678208,
-      "Other sports": 3762152,
-      "Non-Program Specific": 0,
-      "Total": 8060218
-    },
-    {
-      "name": "Support staff/administrative compensation, benefits, and bonuses paid by the Institution and related 
-      "type": "Operating Expenses",entities",
-      "Football": 909162,
-      "Men's Basketball": 344723,
-      "Women's Basketball": 348127,
-      "Other sports": 1112198,
-      "Non-Program Specific": 7893431,
-      "Total": 10607641
-    },
-    {
-      "name": "Recruiting",
-      "type": "Operating Expenses",
-      "Football": 233311,
-      "Men's Basketball": 103466,
-      "Women's Basketball": 98330,
-      "Other sports": 201421,
-      "Non-Program Specific": 0,
-      "Total": 636528
-    },
-    {
-      "name": "Team travel",
-      "type": "Operating Expenses",
-      "Football": 845559,
-      "Men's Basketball": 587562,
-      "Women's Basketball": 540947,
-      "Other sports": 2276988,
-      "Non-Program Specific": 0,
-      "Total": 4251056
-    },
-    {
-      "name": "Sports equipment, uniforms and supplies",
-      "type": "Operating Expenses",
-      "Football": 571022,
-      "Men's Basketball": 69787,
-      "Women's Basketball": 67156,
-      "Other sports": 626549,
-      "Non-Program Specific": 27721,
-      "Total": 1362235
-    },
-    {
-      "name": "Game expenses",
-      "type": "Operating Expenses",
-      "Football": 365825,
-      "Men's Basketball": 353277,
-      "Women's Basketball": 301700,
-      "Other sports": 328485,
-      "Non-Program Specific": 1747434,
-      "Total": 3096721
-    },
-    {
-      "name": "Fundraising, marketing and promotion",
-      "type": "Operating Expenses",
-      "Football": 209016,
-      "Men's Basketball": 97480,
-      "Women's Basketball": 59526,
-      "Other sports": 28748,
-      "Non-Program Specific": 505714,
-      "Total": 900484
-    },
-    {
-      "name": "Spirit groups",
-      "type": "Operating Expenses",
-      "Football": 0,
-      "Men's Basketball": 0,
-      "Women's Basketball": 0,
-      "Other sports": 0,
-      "Non-Program Specific": 1520193,
-      "Total": 1520193
-    },
-    {
-      "name": "Athletic facility leases and rental fees",
-      "type": "Operating Expenses",
-      "Football": 17500,
-      "Men's Basketball": 11550,
-      "Women's Basketball": 9975,
-      "Other sports": 29636,
-      "Non-Program Specific": 224606,
-      "Total": 293267
-    },
-    {
-      "name": "Athletic facility debt service",
-      "type": "Operating Expenses",
-      "Football": 0,
-      "Men's Basketball": 0,
-      "Women's Basketball": 0,
-      "Other sports": 0,
-      "Non-Program Specific": 10289220,
-      "Total": 10289220
-    },
-    {
-      "name": "Direct overhead and administrative expenses",
-      "type": "Operating Expenses",
-      "Football": 1409431,
-      "Men's Basketball": 608113,
-      "Women's Basketball": 610364,
-      "Other sports": 1834241,
-      "Non-Program Specific": 2476730,
-      "Total": 6938879
-    },
-    {
-      "name": "Indirect cost paid to the institution by Athletics",
-      "type": "Operating Expenses",
-      "Football": 0,
-      "Men's Basketball": 0,
-      "Women's Basketball": 0,
-      "Other sports": 0,
-      "Non-Program Specific": 5083067,
-      "Total": 5083067
-    },
-    {
-      "name": "Medical expenses and insurance",
-      "type": "Operating Expenses",
-      "Football": 75978,
-      "Men's Basketball": 11900,
-      "Women's Basketball": 5526,
-      "Other sports": 70700,
-      "Non-Program Specific": 833569,
-      "Total": 997673
-    },
-    {
-      "name": "Memberships and dues",
-      "type": "Operating Expenses",
-      "Football": 1625,
-      "Men's Basketball": 1220,
-      "Women's Basketball": 1250,
-      "Other sports": 21177,
-      "Non-Program Specific": 107369,
-      "Total": 132641
-    },
-    {
-      "name": "Student-athlete meals (non-travel)",
-      "type": "Operating Expenses",
-      "Football": 56932,
-      "Men's Basketball": 8485,
-      "Women's Basketball": 8996,
-      "Other sports": 43637,
-      "Non-Program Specific": 129334,
-      "Total": 247384
-    },
-    {
-      "name": "Other operating expenses",
-      "type": "Operating Expenses",
-      "Football": 145599,
-      "Men's Basketball": 63585,
-      "Women's Basketball": 66603,
-      "Other sports": 314939,
-      "Non-Program Specific": 1230684,
-      "Total": 1821410
-    }
-  ]
+    "student-costs": [
+        {
+            "semester": "Fall",
+            "type": "student itemized",
+            "name": "Tuition",
+            "in-state": 4075,
+            "out-state": 12748
+        },
+        {
+            "semester": "Fall",
+            "type": "student itemized",
+            "name": "Comprehensive Fees",
+            "in-state": 2908,
+            "out-state": 2908
+        },
+        {
+            "semester": "Fall",
+            "type": "student itemized",
+            "name": "Housing - On-Campus Room Rent",
+            "in-state": 3140,
+            "out-state": 3140
+        },
+        {
+            "semester": "Fall",
+            "type": "student itemized",
+            "name": "Internet Connection Fee",
+            "in-state": 138,
+            "out-state": 138
+        },
+        {
+            "semester": "Fall",
+            "type": "student itemized",
+            "name": "Meal Plan (All Access - 200 DD)",
+            "in-state": 3318,
+            "out-state": 3318
+        },
+        {
+            "semester": "Spring",
+            "type": "student itemized",
+            "name": "Tuition (12+ credits)",
+            "in-state": 4075,
+            "out-state": 12748
+        },
+        {
+            "semester": "Spring",
+            "type": "student itemized",
+            "name": "Comprehensive Fees",
+            "in-state": 2908,
+            "out-state": 2908
+        },
+        {
+            "semester": "Spring",
+            "type": "student itemized",
+            "name": "Housing - On-Campus Room Rent",
+            "in-state": 3140,
+            "out-state": 3140
+        },
+        {
+            "semester": "Spring",
+            "type": "student itemized",
+            "name": "Internet Connection Fee",
+            "in-state": 138,
+            "out-state": 138
+        },
+        {
+            "semester": "Spring",
+            "type": "student itemized",
+            "name": "Meal Plan (All Access - 200 DD)",
+            "in-state": 3318,
+            "out-state": 3318
+        },
+        {
+            "name": "Athletic Operations",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Intercollegiate Athletics",
+            "amount": 1798.27
+        },
+        {
+            "name": "Debt Service - Athletics",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Intercollegiate Athletics",
+            "amount": 563.45
+        },
+        {
+            "name": "Auxiliary Administration",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 62.14
+        },
+        {
+            "name": "Breeze Administration",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 5.85
+        },
+        {
+            "name": "Budget Management",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 7.90
+        },
+        {
+            "name": "Business Services",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 22.88
+        },
+        {
+            "name": "Campus Police",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 29.76
+        },
+        {
+            "name": "Controller",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 15.67
+        },
+        {
+            "name": "Dean Of Students",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 33.19
+        },
+        {
+            "name": "Employee Appreciation",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 0.37
+        },
+        {
+            "name": "Facilities Management",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 44.06
+        },
+        {
+            "name": "Family Engagement",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 19.69
+        },
+        {
+            "name": "General Expense",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 5.41
+        },
+        {
+            "name": "General Insurance",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 0.54
+        },
+        {
+            "name": "Human Resources",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 13.50
+        },
+        {
+            "name": "Information Technology",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 8.29
+        },
+        {
+            "name": "International Programs",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 13.48
+        },
+        {
+            "name": "Mandatory Indirect Cost to E&G",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 506.31
+        },
+        {
+            "name": "OSARP",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 47.41
+        },
+        {
+            "name": "Payroll",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 3.37
+        },
+        {
+            "name": "Procurement",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 6.58
+        },
+        {
+            "name": "Scholarships",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 204.12
+        },
+        {
+            "name": "Student Affairs Support",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 6.39
+        },
+        {
+            "name": "Transportation Support",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 4.50
+        },
+        {
+            "name": "University Events",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Auxiliary Service",
+            "amount": 9.63
+        },
+        {
+            "name": "AUBC",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 91.43
+        },
+        {
+            "name": "Bridgeforth",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 63.54
+        },
+        {
+            "name": "Convocation Center",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 70.91
+        },
+        {
+            "name": "Debt Service - Other",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 379.84
+        },
+        {
+            "name": "Facilities Management",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 13.08
+        },
+        {
+            "name": "Facility Reserves",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 73.78
+        },
+        {
+            "name": "Godwin Hall",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 38.13
+        },
+        {
+            "name": "Operating Reserves",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 68.08
+        },
+        {
+            "name": "Plecker Athletic Performance Center",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 22.96
+        },
+        {
+            "name": "Studies Abroad",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Facilities",
+            "amount": 20.90
+        },
+        {
+            "name": "Student Health Center",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Health Services",
+            "amount": 269.31
+        },
+        {
+            "name": "UREC Health Promotion",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Health Services",
+            "amount": 28.55
+        },
+        {
+            "name": "Community Service-Learning",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 22.65
+        },
+        {
+            "name": "Career, Experiential Leaming and Transition",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 10.98
+        },
+        {
+            "name": "Diversity Equity and Inclusion",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 35.04
+        },
+        {
+            "name": "DUX Leadership",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 7.68
+        },
+        {
+            "name": "Event Management",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 3.94
+        },
+        {
+            "name": "Festival Conference and Student Center",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 36.80
+        },
+        {
+            "name": "Fraternity & Sorority Life",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 6.49
+        },
+        {
+            "name": "Homecoming",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 4.51
+        },
+        {
+            "name": "Madipalooza",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 5.52
+        },
+        {
+            "name": "Marching Royal Dukes",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 55.95
+        },
+        {
+            "name": "Multicultural Student Services",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 9.49
+        },
+        {
+            "name": "Orientation",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 15.14
+        },
+        {
+            "name": "SAIL/Organizational Development",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 15.46
+        },
+        {
+            "name": "Student Affairs Support",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 12.00
+        },
+        {
+            "name": "Student Life",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 57.70
+        },
+        {
+            "name": "Student Wellness",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 9.68
+        },
+        {
+            "name": "University Unions",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 169.81
+        },
+        {
+            "name": "UREC",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Student Activity",
+            "amount": 443.57
+        },
+        {
+            "name": "Bus Service",
+            "type": "Auxiliary Comprehensive Fee Component",
+            "subtype": "Transportation",
+            "amount": 118.39
+        }
+    ],
+    "jmu-revenues": [
+        {
+            "name": "State appropriations",
+            "type": "Nonoperating revenues (expenses)",
+            "2023": 145185,
+            "2022": 139725,
+            "delta": 5460,
+            "deltaPercent": "3.9%"
+        },
+        {
+            "name": "Grants and Contracts",
+            "type": "Nonoperating revenues (expenses)",
+            "2023": 19990,
+            "2022": 46212,
+            "delta": -26222,
+            "deltaPercent": "-56.7%"
+        },
+        {
+            "name": "OPEB-related contribution revenue",
+            "type": "Nonoperating revenues (expenses)",
+            "2023": 6601,
+            "2022": 1069,
+            "delta": 5532,
+            "deltaPercent": "517.5%"
+        },
+        {
+            "name": "Investment Income",
+            "type": "Nonoperating revenues (expenses)",
+            "2023": 5356,
+            "2022": 630,
+            "delta": 4726,
+            "deltaPercent": "750.2%"
+        },
+        {
+            "name": "Interest on capital asset related debt",
+            "type": "Nonoperating revenues (expenses)",
+            "2023": -12950,
+            "2022": -13541,
+            "delta": 591,
+            "deltaPercent": "4.4%"
+        },
+        {
+            "name": "Gain (loss) on disposal of plant assets",
+            "type": "Nonoperating revenues (expenses)",
+            "2023": -655,
+            "2022": -257,
+            "delta": -398,
+            "deltaPercent": "-154.9%"
+        },
+        {
+            "name": "Payments to the Commonwealth",
+            "type": "Nonoperating revenues (expenses)",
+            "2023": -3098,
+            "2022": -3098,
+            "delta": 0,
+            "deltaPercent": "0.0%"
+        },
+        {
+            "name": "Capital appropriations and contributions",
+            "type": "Income (loss) before other revenues, expenses, gains, or losses",
+            "2023": 155746,
+            "2022": 11817,
+            "delta": 143929,
+            "deltaPercent": "1218.0%"
+        },
+        {
+            "name": "Capital gifts",
+            "type": "Income (loss) before other revenues, expenses, gains, or losses",
+            "2023": 5873,
+            "2022": 1314,
+            "delta": 4559,
+            "deltaPercent": "347.0%"
+        },
+        {
+            "name": "Student tuition and fees, net",
+            "type": "Operating revenues",
+            "2023": 235832,
+            "2022": 232347,
+            "delta": 3485,
+            "deltaPercent": "$ 1.5%"
+        },
+        {
+            "name": "Grants and contracts",
+            "type": "Operating revenues",
+            "2023": 43535,
+            "2022": 40811,
+            "delta": 2724,
+            "deltaPercent": "6.7%"
+        },
+        {
+            "name": "Auxiliary enterprises, net",
+            "type": "Operating revenues",
+            "2023": 212408,
+            "2022": 202346,
+            "delta": 10062,
+            "deltaPercent": "5.0%"
+        },
+        {
+            "name": "Other operating revenues",
+            "type": "Operating revenues",
+            "2023": 5855,
+            "2022": 4977,
+            "delta": 878,
+            "deltaPercent": "17.6%"
+        },
+        {
+            "name": "State appropriations",
+            "type": "Nonoperating revenues",
+            "2023": 145185,
+            "2022": 139725,
+            "delta": 5460,
+            "deltaPercent": "3.9%"
+        },
+        {
+            "name": "Grants and contracts",
+            "type": "Nonoperating revenues",
+            "2023": 19990,
+            "2022": 46212,
+            "delta": -26222,
+            "deltaPercent": "-56.7%"
+        },
+        {
+            "name": "Other nonoperating revenue",
+            "type": "Nonoperating revenues",
+            "2023": 11959,
+            "2022": 1701,
+            "delta": 10258,
+            "deltaPercent": "603.1%"
+        },
+        {
+            "name": "Capital appropriations and contributions",
+            "type": "Other revenues",
+            "2023": 155746,
+            "2022": 11817,
+            "delta": 143929,
+            "deltaPercent": "1218.0%"
+        },
+        {
+            "name": "Capital gifts",
+            "type": "Other revenues",
+            "2023": 5873,
+            "2022": 1314,
+            "delta": 4559,
+            "deltaPercent": "347.0%"
+        },
+        {
+            "name": "Instruction",
+            "type": "Operating Expense",
+            "2023": 190232,
+            "2022": 185668,
+            "delta": 4564,
+            "deltaPercent": "2.5%"
+        },
+        {
+            "name": "Research",
+            "type": "Operating Expense",
+            "2023": 3267,
+            "2022": 2843,
+            "delta": 424,
+            "deltaPercent": "14.9%"
+        },
+        {
+            "name": "Public service",
+            "type": "Operating Expense",
+            "2023": 23295,
+            "2022": 22105,
+            "delta": 1190,
+            "deltaPercent": "5.4%"
+        },
+        {
+            "name": "Academic support",
+            "type": "Operating Expense",
+            "2023": 53165,
+            "2022": 47536,
+            "delta": 5629,
+            "deltaPercent": "11.8%"
+        },
+        {
+            "name": "Student services",
+            "type": "Operating Expense",
+            "2023": 27059,
+            "2022": 24929,
+            "delta": 2130,
+            "deltaPercent": "8.5%"
+        },
+        {
+            "name": "Institutional support",
+            "type": "Operating Expense",
+            "2023": 37703,
+            "2022": 46660,
+            "delta": -8957,
+            "deltaPercent": "-19.2%"
+        },
+        {
+            "name": "Operation and maintenance - plant",
+            "type": "Operating Expense",
+            "2023": 46138,
+            "2022": 41546,
+            "delta": 4592,
+            "deltaPercent": "11.1%"
+        },
+        {
+            "name": "Depreciation and amortization",
+            "type": "Operating Expense",
+            "2023": 57009,
+            "2022": 55739,
+            "delta": 1270,
+            "deltaPercent": "2.3%"
+        },
+        {
+            "name": "Student aid",
+            "type": "Operating Expense",
+            "2023": 21387,
+            "2022": 36454,
+            "delta": -15067,
+            "deltaPercent": "-41.3%"
+        },
+        {
+            "name": "Auxiliary activities",
+            "type": "Operating Expense",
+            "2023": 164987,
+            "2022": 130469,
+            "delta": 34518,
+            "deltaPercent": "26.5%"
+        }
+    ],
+    "jmu-athletics": [
+        {
+            "name": "Ticket sales",
+            "type": "Operating Revenues",
+            "Football": 3005827,
+            "Men's Basketball": 345290,
+            "Women's Basketball": 107173,
+            "Other sports": 6838,
+            "Non-Program Specific": 353272,
+            "Total": 3818400
+        },
+        {
+            "name": "Student fees",
+            "type": "Operating Revenues",
+            "Football": 0,
+            "Men's Basketball": 0,
+            "Women's Basketball": 0,
+            "Other sports": 0,
+            "Non-Program Specific": 53285977,
+            "Total": 53285977
+        },
+        {
+            "name": "Direct institutional support",
+            "type": "Operating Revenues",
+            "Football": 284293,
+            "Men's Basketball": 153961,
+            "Women's Basketball": 153961,
+            "Other sports": 370452,
+            "Non-Program Specific": 328762,
+            "Total": 1291429
+        },
+        {
+            "name": "Guarantees",
+            "type": "Operating Revenues",
+            "Football": 600000,
+            "Men's Basketball": 85000,
+            "Women's Basketball": 5000,
+            "Other sports": 24166,
+            "Non-Program Specific": 0,
+            "Total": 714166
+        },
+        {
+            "name": "Contributions",
+            "type": "Operating Revenues",
+            "Football": 145597,
+            "Men's Basketball": 75442,
+            "Women's Basketball": 30500,
+            "Other sports": 108632,
+            "Non-Program Specific": 4507121,
+            "Total": 4867292
+        },
+        {
+            "name": "In-Kind",
+            "type": "Operating Revenues",
+            "Football": 193327,
+            "Men's Basketball": 34101,
+            "Women's Basketball": 33101,
+            "Other sports": 134843,
+            "Non-Program Specific": 171025,
+            "Total": 566397
+        },
+        {
+            "name": "NCAA distributions",
+            "type": "Operating Revenues",
+            "Football": 2722,
+            "Men's Basketball": 0,
+            "Women's Basketball": 56616,
+            "Other sports": 56957,
+            "Non-Program Specific": 1473445,
+            "Total": 1589740
+        },
+        {
+            "name": "Conference distributions (non-media or bowl)",
+            "type": "Operating Revenues",
+            "Football": 0,
+            "Men's Basketball": 0,
+            "Women's Basketball": 0,
+            "Other sports": 50000,
+            "Non-Program Specific": 0,
+            "Total": 50000
+        },
+        {
+            "name": "Program, novelty, parking and concession sales",
+            "type": "Operating Revenues",
+            "Football": 134308,
+            "Men's Basketball": 0,
+            "Women's Basketball": 0,
+            "Other sports": 0,
+            "Non-Program Specific": 0,
+            "Total": 134308
+        },
+        {
+            "name": "Royalties, licensing, advertisement and sponsorships",
+            "type": "Operating Revenues",
+            "Football": 96327,
+            "Men's Basketball": 4601,
+            "Women's Basketball": 6601,
+            "Other sports": 41993,
+            "Non-Program Specific": 1162768,
+            "Total": 1312290
+        },
+        {
+            "name": "Other operating revenue",
+            "type": "Operating Revenues",
+            "Football": 2640,
+            "Men's Basketball": 182773,
+            "Women's Basketball": 182773,
+            "Other sports": 4735,
+            "Non-Program Specific": 32419,
+            "Total": 405340
+        },
+        {
+            "name": "Athletic student aid",
+            "type": "Operating Expenses",
+            "Football": 3212217,
+            "Men's Basketball": 516255,
+            "Women's Basketball": 753566,
+            "Other sports": 5951920,
+            "Non-Program Specific": 354788,
+            "Total": 10788746
+        },
+        {
+            "name": "Guarantees",
+            "type": "Operating Expenses",
+            "Football": 950000,
+            "Men's Basketball": 14000,
+            "Women's Basketball": 12000,
+            "Other sports": 31976,
+            "Non-Program Specific": 0,
+            "Total": 1007976
+        },
+        {
+            "name": "Coaching salaries, benefits and bonuses paid by the Institution and related entities",
+            "type": "Operating Expenses",
+            "Football": 2518475,
+            "Men's Basketball": 1101383,
+            "Women's Basketball": 678208,
+            "Other sports": 3762152,
+            "Non-Program Specific": 0,
+            "Total": 8060218
+        },
+        {
+            "name": "Support staff/administrative compensation, benefits, and bonuses paid by the Institution and related entities",
+            "type": "Operating Expenses",
+            "Football": 909162,
+            "Men's Basketball": 344723,
+            "Women's Basketball": 348127,
+            "Other sports": 1112198,
+            "Non-Program Specific": 7893431,
+            "Total": 10607641
+        },
+        {
+            "name": "Recruiting",
+            "type": "Operating Expenses",
+            "Football": 233311,
+            "Men's Basketball": 103466,
+            "Women's Basketball": 98330,
+            "Other sports": 201421,
+            "Non-Program Specific": 0,
+            "Total": 636528
+        },
+        {
+            "name": "Team travel",
+            "type": "Operating Expenses",
+            "Football": 845559,
+            "Men's Basketball": 587562,
+            "Women's Basketball": 540947,
+            "Other sports": 2276988,
+            "Non-Program Specific": 0,
+            "Total": 4251056
+        },
+        {
+            "name": "Sports equipment, uniforms and supplies",
+            "type": "Operating Expenses",
+            "Football": 571022,
+            "Men's Basketball": 69787,
+            "Women's Basketball": 67156,
+            "Other sports": 626549,
+            "Non-Program Specific": 27721,
+            "Total": 1362235
+        },
+        {
+            "name": "Game expenses",
+            "type": "Operating Expenses",
+            "Football": 365825,
+            "Men's Basketball": 353277,
+            "Women's Basketball": 301700,
+            "Other sports": 328485,
+            "Non-Program Specific": 1747434,
+            "Total": 3096721
+        },
+        {
+            "name": "Fundraising, marketing and promotion",
+            "type": "Operating Expenses",
+            "Football": 209016,
+            "Men's Basketball": 97480,
+            "Women's Basketball": 59526,
+            "Other sports": 28748,
+            "Non-Program Specific": 505714,
+            "Total": 900484
+        },
+        {
+            "name": "Spirit groups",
+            "type": "Operating Expenses",
+            "Football": 0,
+            "Men's Basketball": 0,
+            "Women's Basketball": 0,
+            "Other sports": 0,
+            "Non-Program Specific": 1520193,
+            "Total": 1520193
+        },
+        {
+            "name": "Athletic facility leases and rental fees",
+            "type": "Operating Expenses",
+            "Football": 17500,
+            "Men's Basketball": 11550,
+            "Women's Basketball": 9975,
+            "Other sports": 29636,
+            "Non-Program Specific": 224606,
+            "Total": 293267
+        },
+        {
+            "name": "Athletic facility debt service",
+            "type": "Operating Expenses",
+            "Football": 0,
+            "Men's Basketball": 0,
+            "Women's Basketball": 0,
+            "Other sports": 0,
+            "Non-Program Specific": 10289220,
+            "Total": 10289220
+        },
+        {
+            "name": "Direct overhead and administrative expenses",
+            "type": "Operating Expenses",
+            "Football": 1409431,
+            "Men's Basketball": 608113,
+            "Women's Basketball": 610364,
+            "Other sports": 1834241,
+            "Non-Program Specific": 2476730,
+            "Total": 6938879
+        },
+        {
+            "name": "Indirect cost paid to the institution by Athletics",
+            "type": "Operating Expenses",
+            "Football": 0,
+            "Men's Basketball": 0,
+            "Women's Basketball": 0,
+            "Other sports": 0,
+            "Non-Program Specific": 5083067,
+            "Total": 5083067
+        },
+        {
+            "name": "Medical expenses and insurance",
+            "type": "Operating Expenses",
+            "Football": 75978,
+            "Men's Basketball": 11900,
+            "Women's Basketball": 5526,
+            "Other sports": 70700,
+            "Non-Program Specific": 833569,
+            "Total": 997673
+        },
+        {
+            "name": "Memberships and dues",
+            "type": "Operating Expenses",
+            "Football": 1625,
+            "Men's Basketball": 1220,
+            "Women's Basketball": 1250,
+            "Other sports": 21177,
+            "Non-Program Specific": 107369,
+            "Total": 132641
+        },
+        {
+            "name": "Student-athlete meals (non-travel)",
+            "type": "Operating Expenses",
+            "Football": 56932,
+            "Men's Basketball": 8485,
+            "Women's Basketball": 8996,
+            "Other sports": 43637,
+            "Non-Program Specific": 129334,
+            "Total": 247384
+        },
+        {
+            "name": "Other operating expenses",
+            "type": "Operating Expenses",
+            "Football": 145599,
+            "Men's Basketball": 63585,
+            "Women's Basketball": 66603,
+            "Other sports": 314939,
+            "Non-Program Specific": 1230684,
+            "Total": 1821410
+        }
+    ]
 }
