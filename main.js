@@ -2,7 +2,7 @@ import * as d3 from 'd3';
 import * as d3Sankey from "d3-sankey";
 
 const width = 928;
-const height = 600;
+const height = 600; 
 const format = d3.format(",.0f");
 const linkColor = "source-target"; // source, target, source-target, or a color string.
 
@@ -21,8 +21,37 @@ const sankey = d3Sankey.sankey()
   .nodePadding(10)
   .extent([[1, 5], [width - 1, height - 5]]);
 
+  function wrangle(costs) {
+    let studentCosts = costs["student-costs"];
+    let data = [];
+    let id = 0;
+    for (let obj of costs) {
+      if (obj["type"] === "Auxiliary Comprehensive Fee Component") {
+        data.push({
+          name: id,
+          value: obj["amount"],
+          title: obj["name"],
+          category: obj["subtype"],
+        });
+      }
+    }
+
+    data.push({
+      name: "Auxiliary Comprehensive Fee Component",
+      value: 0,
+      title: "Auxiliary Comprehensive Fee Component",
+      category: "Auxiliary Comprehensive Fee Component",
+    });
+    return data;
+  }
+
 async function init() {
-  const data = await d3.json("data/data_sankey.json");
+  const unwrangledData = await d3.json("data/jmu.json");
+  const data = {
+    "nodes" : wrangle(unwrangledData),
+    "links" : createLinks(data.nodes),
+  };
+  
   // Applies it to the data. We make a copy of the nodes and links objects
   // so as to avoid mutating the original.
   const { nodes, links } = sankey({
